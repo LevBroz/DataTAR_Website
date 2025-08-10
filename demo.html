@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Interactiva - DataTAR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo-link">
+                <img src="assets/logo/logo-datatar.svg" alt="Logo DataTAR" class="logo">
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="demo.html" class="active">Demo Interactiva</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="demo-main">
+        <div class="demo-container">
+            <aside class="demo-sidebar">
+                <h3>Selecciona una Herramienta</h3>
+                <ul class="tool-selector">
+                    <li><button class="tool-button active" data-tool="power-bi">Power BI</button></li>
+                    <li><button class="tool-button" data-tool="tableau">Tableau</button></li>
+                    <li><button class="tool-button" data-tool="looker">Looker Studio</button></li>
+                    <li><button class="tool-button" data-tool="sisense">SiSense</button></li>
+                </ul>
+                <p class="sidebar-note">Estos son ejemplos interactivos. Los dashboards que desarrollamos para nuestros clientes son 100% personalizados y privados.</p>
+            </aside>
+            <section class="dashboard-display">
+                <div id="dashboard-container">
+                    <div class="loader-wrapper">
+                        <div class="loader"></div>
+                        <p>Cargando dashboard...</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+             <div class="footer-content">
+                <p>&copy; 2025 DataTAR. Todos los derechos reservados.</p>
+                <p>Email: <a href="mailto:contact@datatar.com">contact@datatar.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

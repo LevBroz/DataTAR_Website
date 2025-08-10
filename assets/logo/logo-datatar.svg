@@ -1,0 +1,11 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg" font-family="Poppins, sans-serif">
+  <style>
+    .heavy { font-size: 32px; font-weight: 700; fill: #2c2c2c; }
+    .light { font-size: 32px; font-weight: 400; fill: #2c2c2c; }
+  </style>
+  <text x="5" y="40" class="heavy">Da</text>
+  <rect x="58" y="22" width="8" height="18" fill="#BFFF00"/>
+  <rect x="68" y="15" width="8" height="25" fill="#BFFF00"/>
+  <text x="78" y="40" class="heavy">a</text>
+  <text x="95" y="40" class="light">TAR</text>
+</svg>
