@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DataTAR - Transformando Datos en Decisiones</title>
+    <title data-key="metaTitleHome">DataTAR - Transformando Datos en Decisiones</title>
+    <meta name="description" content="" data-key="metaDescriptionHome">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
@@ -18,9 +19,9 @@
             </a>
             <nav class="main-nav">
                 <ul>
-                    <li><a href="index.html" class="active">Inicio</a></li>
-                    <li><a href="demo.html">Demo Interactiva</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="index.html" class="active" data-key="navHome">Inicio</a></li>
+                    <li><a href="demo.html" data-key="navDemo">Demo Interactiva</a></li>
+                    <li><a href="contacto.html" data-key="navContact">Contacto</a></li>
                 </ul>
             </nav>
         </div>
@@ -29,37 +30,71 @@
     <main>
         <section id="hero">
             <div class="container">
-                <h1>Transformando datos en decisiones inteligentes.</h1>
-                <p class="subtitle">Ayudamos a empresas en USA a descubrir insights y potenciar su crecimiento a través del análisis de datos y la visualización.</p>
-                <a href="contacto.html" class="cta-button">Solicitar una Consultoría</a>
+                <h1 data-key="heroTitle">Transformando datos en decisiones inteligentes.</h1>
+                <p class="subtitle" data-key="heroSubtitle"></p>
+                <a href="contacto.html" class="cta-button" data-key="heroButton">Solicitar una Consultoría</a>
             </div>
         </section>
 
         <section id="about">
             <div class="container">
-                <h2>¿Quiénes somos?</h2>
-                <p>DataTAR es una consultora especializada en Business Intelligence y Análisis de Datos. Nuestro equipo de expertos colabora con clientes para construir soluciones de datos a medida, desde la integración y el modelado (ETL) hasta la creación de dashboards interactivos que facilitan la toma de decisiones estratégicas.</p>
+                <h2 data-key="aboutTitle">¿Quiénes somos?</h2>
+                <p data-key="aboutText">DataTAR es una consultora especializada en Business Intelligence y Análisis de Datos. Nuestro equipo de expertos colabora con clientes para construir soluciones de datos a medida, desde la integración y el modelado (ETL) hasta la creación de dashboards interactivos que facilitan la toma de decisiones estratégicas.</p>
+                
+                <div class="about-details-grid">
+                    <div class="team-card">
+                        <img src="assets/team/LuisVelez.jpg" alt="Luis Velez" class="team-photo">
+                        <h3 data-key="teamMemberName">Luis Velez</h3>
+                        <p class="team-role" data-key="teamMemberRole">Business Intelligence & Data Engineer Lead</p>
+                        <p class="team-experience"><strong data-key="teamExperience">Años de experiencia:</strong> 9+</p>
+                        <div class="skills-section">
+                            <h4 data-key="teamStack">Tech-Stack:</h4>
+                            <div class="skills-list">
+                                <span>Power BI</span>
+                                <span>Looker</span>
+                                <span>SiSense</span>
+                                <span>GCP</span>
+                                <span>Bigquery</span>
+                                <span>SQL</span>
+                                <span>Python</span>
+                                <span>Airflow</span>
+                                <span>ETL</span>
+                                <span>FinTech</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mission-vision">
+                        <div>
+                            <h3 data-key="missionTitle">Nuestra Misión</h3>
+                            <p data-key="missionText">Empoderar a las organizaciones a través de la claridad y la inteligencia de sus datos, convirtiendo la información compleja en una ventaja competitiva simple y accionable.</p>
+                        </div>
+                        <div>
+                            <h3 data-key="visionTitle">Nuestra Visión</h3>
+                            <p data-key="visionText">Ser el socio estratégico de referencia en análisis de datos para las empresas en crecimiento en Estados Unidos, reconocidos por nuestra innovación, precisión y el impacto medible que generamos.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="services">
             <div class="container">
-                <h2>Nuestros Servicios Principales</h2>
+                <h2 data-key="servicesTitle">Nuestros Servicios Principales</h2>
                 <div class="services-grid">
                     <div class="service-card">
                         <img src="assets/icons/dashboard.png" alt="Desarrollo de Dashboards" class="service-icon">
-                        <h3>Desarrollo de Dashboards</h3>
-                        <p>Creamos visualizaciones interactivas y personalizadas que te permiten explorar tus datos de manera intuitiva y efectiva.</p>
+                        <h3 data-key="service1Title">Desarrollo de Dashboards</h3>
+                        <p data-key="service1Text">Creamos visualizaciones interactivas y personalizadas que te permiten explorar tus datos de manera intuitiva y efectiva.</p>
                     </div>
                     <div class="service-card">
                         <img src="assets/icons/consulting.png" alt="Consultoría en BI" class="service-icon">
-                        <h3>Consultoría en BI</h3>
-                        <p>Te guiamos en la estrategia de Business Intelligence para optimizar procesos y alinear tus objetivos de negocio con tus datos.</p>
+                        <h3 data-key="service2Title">Consultoría en BI</h3>
+                        <p data-key="service2Text">Te guiamos en la estrategia de Business Intelligence para optimizar procesos y alinear tus objetivos de negocio con tus datos.</p>
                     </div>
                     <div class="service-card">
                         <img src="assets/icons/etl.png" alt="Integración de Datos y ETL" class="service-icon">
-                        <h3>Integración de Datos y ETL</h3>
-                        <p>Diseñamos y automatizamos flujos de datos (ETL) para consolidar tus fuentes de información en un único lugar confiable.</p>
+                        <h3 data-key="service3Title">Integración de Datos y ETL</h3>
+                        <p data-key="service3Text">Diseñamos y automatizamos flujos de datos (ETL) para consolidar tus fuentes de información en un único lugar confiable.</p>
                     </div>
                 </div>
             </div>
@@ -67,11 +102,11 @@
 
         <section id="tools">
             <div class="container">
-                <h2>Tecnologías que Dominamos</h2>
+                <h2 data-key="toolsTitle">Tecnologías que Dominamos</h2>
                 <div class="tools-logos">
                     <img src="assets/tools/powerbi.svg" alt="Power BI">
                     <img src="assets/tools/tableau.svg" alt="Tableau">
-                    <img src="assets/tools/sisense.png" alt="SiSense">
+                    <img src="assets/tools/sisense.svg" alt="SiSense">
                     <img src="assets/tools/looker.svg" alt="Looker">
                     <img src="assets/tools/bigquery.svg" alt="Google BigQuery">
                 </div>
@@ -82,11 +117,11 @@
     <footer class="main-footer">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2025 DataTAR. Todos los derechos reservados.</p>
-                <p>Email: <a href="mailto:contact@datatar.com">contact@datatar.com</a></p>
+                <p data-key="footerCopyright">&copy; 2025 DataTAR. Todos los derechos reservados.</p>
+                <p>Email: <a href="mailto:luis.velez@datatar.com">contact@datatar.com</a></p>
             </div>
         </div>
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
 </html>
