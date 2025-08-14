@@ -88,8 +88,8 @@ document.addEventListener('DOMContentLoaded', function() {
             // About Section
             aboutTitle: "Who We Are",
             aboutText: "DataTAR is a consultancy specializing in Business Intelligence and Data Analytics. Our team of experts collaborates with clients to build custom data solutions, from data integration and modeling (ETL) to creating interactive dashboards that facilitate strategic decision-making.",
-            teamMemberName: "Luis Velez",
-            teamMemberRole: "BI & Data Engineer Lead",
+            teamMemberName: "Alex Doe",
+            teamMemberRole: "Lead Data Analyst & Founder",
             teamExperience: "Years of experience:",
             teamStack: "Tech-Stack:",
             missionTitle: "Our Mission",
@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const toolButtons = document.querySelectorAll('.tool-button');
         const dashboardContainer = document.getElementById('dashboard-container');
         const dashboardUrls = {
-            'power-bi': 'https://app.powerbi.com/view?r=eyJrIjoiNWM3YWE3ODUtZGFhYi00M2U5LWFmNzAtY2I5Yzc1NTU4M2EwIiwidCI6IjZkY2ZjY2VhLWMyNWEtNDc4My1iM2U5LWI1MGUxM2YwYjZmOSIsImMiOjZ9',
+            'power-bi': 'https://app.powerbi.com/view?r=eyJrIjoiYTRhMjIyYTYtYjQ1NS00ZGU4LWEzNGMtNGFjNjg4OTNkZDdjIiwidCI6ImFkMzU2YzFlLTJjMWMtNGJlYi1hMGYzLWViZTY0YTEyN2M5NiJ9',
             'tableau': 'https://public.tableau.com/views/Superstore_16790933709590/Overview?%3Alanguage=en-US&%3Adisplay_count=n&%3Aorigin=viz_share_link&%3Aembed=y',
             'looker': 'https://lookerstudio.google.com/embed/reporting/0b5753d8-333c-4f86-90f7-5509a80e1a14/page/p_3g9cxdn81c',
             'sisense': 'https://www.sisense.com/dashboard-examples/marketing-kpi-dashboard/'
