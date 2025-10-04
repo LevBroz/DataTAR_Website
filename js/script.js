@@ -88,8 +88,8 @@ document.addEventListener('DOMContentLoaded', function() {
             // About Section
             aboutTitle: "Who We Are",
             aboutText: "DataTAR is a consultancy specializing in Business Intelligence and Data Analytics. Our team of experts collaborates with clients to build custom data solutions, from data integration and modeling (ETL) to creating interactive dashboards that facilitate strategic decision-making.",
-            teamMemberName: "Alex Doe",
-            teamMemberRole: "Lead Data Analyst & Founder",
+            teamMemberName: "Luis Velez",
+            teamMemberRole: "BI & Data Engineer Lead",
             teamExperience: "Years of experience:",
             teamStack: "Tech-Stack:",
             missionTitle: "Our Mission",
